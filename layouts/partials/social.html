@@ -1,0 +1,37 @@
+<nav class="ui top secondary menu bar">
+	<div class="item">
+		<i class="inverted big link bullseye icon dream-flip-toggle" title="{{ i18n `flip` }}"></i>
+	</div>
+	
+	{{ range $index, $val := $.Site.Social }}
+		{{ $.Scratch.Set $index $val }}
+	{{ end }}
+
+	{{/*slices to loop over*/}}
+	{{ $sites := slice "Email" "GitHub" "Twitter" "YouTube" "Medium" "LinkedIn" "Stack Overflow" "CodePen" "Reddit" "Facebook" "Instagram" "weibo"}}
+	{{ $links := slice "mailto:" "https://github.com/" "https://twitter.com/" "https://youtube.com/" "https://medium.com/@" "https://www.linkedin.com/in/" "https://www.stackoverflow.com/users/" "https://codepen.io/" "https://reddit.com/user/" "https://www.facebook.com/" "https://www.instagram.com/" "https://weibo.com/"}}
+	{{ $icons := slice  "mail" "github" "twitter" "youtube play" "medium" "linkedin" "stack overflow" "codepen" "reddit" "facebook" "instagram" "weibo"}}
+	
+	{{/*Generate HTML for each site*/}}
+	{{ range $index, $val := $sites }}
+		{{ $var := replace $val " " "" | lower }}
+		{{ with ($.Scratch.Get $var) }}
+			<div class="item">
+				<a href="{{ index $links $index }}{{ $.Scratch.Get $var }}" {{ if ne $var "mail" }}target="	_blank"{{ end }}>
+					<i id="ico" class="inverted big link {{ index $icons $index }} icon" title="{{ $val }}"></i>
+				</a>
+			</div>
+		{{ end }}
+	{{ end }}
+</nav>
+
+  
+	<!-- {{ range $name, $url := .Site.Params.social }}
+	   {{ if $url }}
+	       <div class="item">
+				<a href="{{ $url }}" target="_blank">
+					<i id="ico" class="inverted icon" title="{{ $name}}">{{- partial "svg" (dict "iconName" $name "size" "30px") -}}</i>
+				</a>
+			</div>
+       {{end}}
+    {{ end }} -->

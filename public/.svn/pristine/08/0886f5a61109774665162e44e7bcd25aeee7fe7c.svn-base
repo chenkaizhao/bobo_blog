@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bobo&#39;s Blog</title>
+    <link>https://blog.ackbobo.com/</link>
+    <description>Recent content on Bobo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 18 Jul 2019 18:59:43 +0530</lastBuildDate>
+    
+	<atom:link href="https://blog.ackbobo.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Example</title>
+      <link>https://blog.ackbobo.com/posts/example/</link>
+      <pubDate>Thu, 18 Jul 2019 18:59:43 +0530</pubDate>
+      
+      <guid>https://blog.ackbobo.com/posts/example/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Google Code-in with OpenWISP</title>
+      <link>https://blog.ackbobo.com/posts/gci/</link>
+      <pubDate>Sat, 13 Jan 2018 10:29:23 +0530</pubDate>
+      
+      <guid>https://blog.ackbobo.com/posts/gci/</guid>
+      <description>Recently I&amp;rsquo;ve been participating in Google Code-in which is Google&amp;rsquo;s initiative to introduce young minds to the concept of FOSS, that is Free or Open-Source Softwares. This post is for sharing my experiences with GCI, as the title suggests. So let&amp;rsquo;s just get on it.
+It all began while I was returning from an outing on 5 December, 2017 and was searching the internet for Google Science Fair to check if I could participate in it or not.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://blog.ackbobo.com/posts/creating-a-new-theme/</link>
+      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ackbobo.com/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://blog.ackbobo.com/posts/goisforlovers/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ackbobo.com/posts/goisforlovers/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Migrating from Jekyll</title>
+      <link>https://blog.ackbobo.com/posts/migrate-from-jekyll/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ackbobo.com/posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://blog.ackbobo.com/posts/hugoisforlovers/</link>
+      <pubDate>Mon, 28 Jan 2019 18:59:43 +0530</pubDate>
+      
+      <guid>https://blog.ackbobo.com/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blog.ackbobo.com/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ackbobo.com/404/</guid>
+      <description> Error 404: Page Not Found It seems that the page that you&amp;rsquo;re trying to access doesn&amp;rsquo;t exist. 😟 If you&amp;rsquo;re sure that it exists, chances are it might have been moved to a new link! You may search for it on the home page. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blog.ackbobo.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ackbobo.com/about/</guid>
+      <description>So, Who Am I?----ResumeI’m your lover boy</description>
+    </item>
+    
+  </channel>
+</rss>

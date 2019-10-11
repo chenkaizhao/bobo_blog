@@ -1,0 +1,79 @@
+baseURL = "https://blog.ackbobo.com"
+title = "Bobo's Blog"
+theme = "dream-plus"
+themesDir = "../.."		#Don't use this, only for exampleSite
+paginate = 4            #Defaults to 10
+enableRobotsTXT = true
+disqusShortname = "dream-plus"
+#language = "../i18n/zh"
+
+#Skip building these files
+ignoreFiles = ["content/404.md", "content/about.md", "content/cards/\\.*"]
+
+#Syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=table"
+
+#Enable Hugo Emoji Conversion
+enableEmoji=true
+
+[params]
+	#Favicon for site
+	favicon = "/img/defaultFav.ico"
+
+	#Set whether you're hosting "cards" or "post"
+	contentType = "posts"
+
+	siteStartYear = 2018
+
+	[params.author]
+		name = "Bobo"
+		description = "Personal website for resume and blogs."
+		avatar = ""
+		motto = "A keen maker, programmer and an Instructables author."
+
+	[params.features]
+		#Enable Twitter Emoji
+		twitterEmoji = true
+		#Enable Table of Contents
+		toc = true
+		#Enable share card
+		shareCard = true
+		#Use custom CSS
+		customCSS = ["https://cdn.rawgit.com/UtkarshVerma/hugo-dream-plus/ae11561d/exampleSite/static/css/highlight.css"]
+		#image processing
+		coverArgs = "400x300 q50"		#Specify resolution and quality of output image
+
+	#Tags settings
+	[params.tags]
+		enabled = true
+	    tagLimit = 10		#Top 10 tags will be displayed
+	    #or
+	    #tagLimit = 0		#Display all tags
+	
+	#Categories settings
+	[params.categories]
+	    enabled = true
+	
+	#background color
+	[params.background]
+	    color = "#13547A"	             #Provide a color as hex or rgb equivalent
+	
+	#background image
+	#[params.background]
+	    #images = ["/images/bg1.jpeg"]   #Single image as background
+	    #images = ["/images/bg1.jpeg", "/images/bg2.jpeg", "/images/bg3.jpeg"] 		#Random backgrounds
+	    #blur = "0.2"		             #Blur the background         
+	
+	#[params.shortest]
+	    #enabled = true		#Enable shorte.st
+	    #apiToken = ""		#The API Token you received from shorte.st
+	    #domains = [""]		#The domains you want to define
+
+[social]
+	email = "ahhjbobo@gmail.com"
+	facebook = "Chen Kai Zhao"
+	linkedin = ""
+	github = ""
+

@@ -1,0 +1,8 @@
+{{/*Copyright statement*/}}
+{{ with $.Site.Params.siteStartYear }}
+	<p>© {{ if eq now.Year $.Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ $.Site.Params.siteStartYear }} - {{ now.Year }}{{ end }} {{ $.Site.Title }}</p>
+{{ else }}
+	<p>© {{ now.Year }} {{ $.Site.Title }}</p>
+{{ end }}
+
+<p>{{ $.Site.Params.author.description }}&nbsp;&nbsp;Powered by Bobo Zhao.</p>

@@ -1,0 +1,105 @@
+baseURL = "https://blog.ackbobo.com"
+title = "Bobo's Blog"
+theme = "dream-plus"
+paginate = 9            #Defaults to 10
+enableRobotsTXT = true
+disqusShortname = "bobo-blog"
+#LanguageCode = "i18n/zh.toml"
+
+#Skip building these files
+ignoreFiles = ["content/404.md", "content/about.md", "content/cards/\\.*"]
+
+#Syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=table"
+
+#Enable Hugo Emoji Conversion
+enableEmoji=true
+
+[params]
+	#Favicon for site
+	favicon = "/img/favicon.ico"
+	#Set whether you're hosting "cards" or "post"
+	#contentType = "posts"
+
+	siteStartYear = 2017
+
+	[params.author]
+		name = "Bobo"
+		description = "Personal website for resume and blogs |"
+		avatar = "/img/logo2.jpg"
+		motto = "一朝笑尽天下事，从此节操是路人"
+		motto1 = "Your Lover boy"
+
+	[params.features]
+		#Enable Twitter Emoji
+		twitterEmoji = true
+		#Enable Table of Contents
+		toc = true
+		#Enable share card
+		shareCard = true
+		#Use custom CSS
+		customCSS = ["https://cdn.rawgit.com/UtkarshVerma/hugo-dream-plus/ae11561d/exampleSite/static/css/highlight.css"]
+		#image processing
+		coverArgs = "200x200"		#Specify resolution and quality of output image
+
+	#Tags settings
+	[params.tags]
+		enabled = true
+	    #tagLimit = 10		#Top 10 tags will be displayed
+	    #or
+	    tagLimit = 20		#Display all tags
+	
+	#Categories settings
+	[params.categories]
+	    enabled = true
+
+	#background color
+	#[params.background]
+	    #color = "#000"	             #Provide a color as hex or rgb equivalent
+	
+	#background image
+	[params.background]
+	    #images = ["/img/background/snowboarding.jpg", 
+		 #        "/img/background/bg1.jpg", 
+		#		  "/img/background/skiing.jpg",
+		#		  "/img/background/moon.jpg", 
+		#		  "/img/background/skydiving.jpg", 
+		#		  "/img/background/snowboarding1.jpg",
+		#		  "/img/background/surreal.jpg",
+		#		  "/img/background/mercy.jpg",
+		#		  "/img/background/snowboarding.jpg",
+		#		  "/img/background/rock.jpg",
+		#		  "/img/background/planet.jpg",
+		#		  "/img/background/neonlight.jpg",
+		#		  "/img/background/halifax.jpg", 
+		#		  "/img/background/couple.jpg",
+		#		  "/img/background/atmopheric.jpg",     
+		#		  "/img/background/alone.jpg"]   #Random backgrounds
+	    images = ["/img/background/surreal.jpg"]		#Single image as background
+	    #blur = "0.2"		             #Blur the background         
+	
+	#[params.shortest]
+	    #enabled = true		#Enable shorte.st
+	    #apiToken = ""		#The API Token you received from shorte.st
+	    #domains = [""]		#The domains you want to define
+	[params.social]
+	      #github = "https://github.com/"
+		  #twitter = "https://twitter.com/"
+		  #linkedin = "https://www.linkedin.com/in/"
+[social]
+	email = "ahhjbobo@gmail.com"
+	facebook = "ck.zhao.5"
+	linkedin = "chenkai-zhao-954abb18b/"
+	github = "chenkaizhao"
+	#twitter = "chenkaizhao"
+	#medium = "chenkaizhao"
+	#codepen = "chenkaizhao/"
+	youtube = "channel/UCXYrEy9hmN-uQbULvSqx9HQ/"
+	instagram = "chenkai.zhao"
+	#gitlab = "chenkaizhao/"
+	#keybase = "chenkaizhao"
+	weibo = "chenkaizhao"
+	#bilibili = "chenkaizhao"
+
